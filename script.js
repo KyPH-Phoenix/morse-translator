@@ -38,7 +38,7 @@ function trigger() {
 }
 
 function translate(input) {
-    let output = "";
+    let output = "///";
 
     for (const c of input.toLowerCase().trim()) {
         output += codes.get(c);
